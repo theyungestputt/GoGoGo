@@ -26,7 +26,8 @@ public class Go {
         Scanner scn = new Scanner(System.in);
 
         int dimension = goBoard.length - 1;
-
+        
+        //Constructs our board for alive (true) and dead (false) pieces 
         for (int i = 0; i < 9; i++){
             for (int j = 0; j < 9; j++){
                 if (lives[i][j] == false){
@@ -111,4 +112,4 @@ public class Go {
 
 }
 
-// T put was herekjjjl
+// T put was herekj
